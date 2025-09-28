@@ -8,7 +8,7 @@ import json
 import uuid
 
 # --- НАСТРОЙКИ ---
-TOKEN = '***REMOVED***'
+TOKEN = '${BOT_TOKEN}'
 CHAT_ID = '-1002998392121'
 TOPIC_ID = 101
 REDIS_HOST = '192.168.176.166'
@@ -20,8 +20,8 @@ CHANNEL = 'relay_channel'
 try:
     from telethon.sync import TelegramClient
     # Вставьте ВАШИ API_ID и API_HASH
-    API_ID = ***REMOVED***
-    API_HASH = '***REMOVED***'
+    API_ID = ${ID}
+    API_HASH = '${HASH}'
 except ImportError:
     print("🔴 Telethon не установлен. Пожалуйста, установите: pip install telethon")
     sys.exit(1)

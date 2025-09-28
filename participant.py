@@ -8,10 +8,10 @@ import json
 import uuid
 
 # --- НАСТРОЙКИ ---
-TOKEN = '***REMOVED***'
+TOKEN = '${BOT_TOKEN}'
 CHAT_ID = '-1002998392121'
 TOPIC_ID = 101
-REDIS_HOST = '192.168.176.166'
+REDIS_HOST = '${IP}'
 REDIS_PORT = 6379
 CHANNEL = 'relay_channel'
 # --- КОНЕЦ НАСТРОЕК ---
